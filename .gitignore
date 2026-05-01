@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# NS-3 build files
+build/
+*.o
+*.a
+*.xml
+*.pcap
+*-stats.txt
+*-animation.xml
+
+# Large files / models
+*.pth
+*.h5
+*.pkl
+
+# Dataset (large file)
+dataset/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
